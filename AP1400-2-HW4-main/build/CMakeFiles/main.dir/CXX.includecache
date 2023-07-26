@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/shared_ptr.h
+
+../include/unique_ptr.h
+
+/home/tuwenliang/AP1400-2-HW4-main/src/main.cpp
+iostream
+-
+gtest/gtest.h
+-
+unique_ptr.h
+/home/tuwenliang/AP1400-2-HW4-main/src/unique_ptr.h
+shared_ptr.h
+/home/tuwenliang/AP1400-2-HW4-main/src/shared_ptr.h
+
+/home/tuwenliang/AP1400-2-HW4-main/src/unit_test.cpp
+algorithm
+-
+gtest/gtest.h
+/home/tuwenliang/AP1400-2-HW4-main/src/gtest/gtest.h
+gmock/gmock.h
+/home/tuwenliang/AP1400-2-HW4-main/src/gmock/gmock.h
+string
+-
+vector
+-
+unique_ptr.h
+/home/tuwenliang/AP1400-2-HW4-main/src/unique_ptr.h
+shared_ptr.h
+/home/tuwenliang/AP1400-2-HW4-main/src/shared_ptr.h
+
